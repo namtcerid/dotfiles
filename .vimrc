@@ -115,6 +115,8 @@ if &term =~ "xterm"
     inoremap <special> <expr> <Esc>[200~ XTermPasteBegin("")
 endif
 
+set clipboard&
+set clipboard^=unnamedplus
 "----------------------------------------------------------
 " 編集中の行をハイライトしない
 "----------------------------------------------------------
